@@ -1,0 +1,11 @@
+in:
+$(ConfigDir)\..\..\
+
+out:
+$(ConfigDir)\..\lib\galline-dep.js
+
+workers:
+joiner
+
+files:
+dep\Stats\Stats.js

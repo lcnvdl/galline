@@ -1,0 +1,14 @@
+in:
+$(ConfigDir)\..\..\
+
+out:
+$(ConfigDir)\..\lib\galline.js
+
+workers:
+joiner
+
+files:
+src\def.js
+src\core\core.js
+src\mod\gui\datgui\module.js
+src\com\timer\timer.js

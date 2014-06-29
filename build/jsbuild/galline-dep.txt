@@ -8,4 +8,7 @@ workers:
 joiner
 
 files:
+dep\jquery.js
+dep\dejavu.js
+dep\engine.min.js
 dep\Stats\Stats.js

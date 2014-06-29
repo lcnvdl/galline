@@ -2,7 +2,7 @@
 //  Dat.GUI Module.
 //
 
-AGE.Mod.GUI = AGE.Mod.GUI || {};
+Gln.Mod.GUI = Gln.Mod.GUI || {};
 
 /**
  *  Dat.GUI implementation.
@@ -10,7 +10,7 @@ AGE.Mod.GUI = AGE.Mod.GUI || {};
  *  @class DatGUI
  *  @constructor
  */
-AGE.Mod.GUI.DatGUI = GE.Klass(GE.Module, {
+Gln.Mod.GUI.DatGUI = GE.Klass(GE.Module, {
 
     //  *****************************
     //  Class Definitions
@@ -48,7 +48,7 @@ AGE.Mod.GUI.DatGUI = GE.Klass(GE.Module, {
         if(!document.dat || !document.dat.gui)  {
             var name = this.name;
             if(typeof TWEEN === 'undefined')  {
-                GE.loadScript(GE.Path.combine(AGE.Folders.Modules, this.file))
+                GE.loadScript(GE.Path.combine(Gln.Folders.Modules, this.file))
                     .done(function(){success(name);})
                     .fail(function(){fail(name);});
             }
